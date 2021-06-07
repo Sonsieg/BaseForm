@@ -4,7 +4,7 @@ import {Text, View} from 'react-native';
 export const App = () => {
   return (
     <View>
-      <Text>Xin chao</Text>
+      <Text>Xin chào</Text>
     </View>
   );
 };
