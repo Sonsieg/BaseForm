@@ -104,7 +104,7 @@ export class ToolBar extends Component {
       <LinearGradient
         start={{x: 0, y: 0}}
         end={{x: 1, y: 1}}
-        colors={[`#fa8072`, `#f4a460`]}
+        colors={[colors.sand, colors.brown]}
         style={{height: vari.toolbarHeight}}
         locations={[0, 1]}>
         {this.props.children ? (

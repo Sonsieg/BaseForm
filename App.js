@@ -1,7 +1,9 @@
 import React from 'react';
 import {Text, View} from 'react-native';
 import images from './src/assets/images';
+import ButtonAnother from './src/components/ButtonAnother';
 import ToolBar from './src/components/ToolBar';
+import colors from './src/utils/colors/colors';
 
 export const App = () => {
   return (
@@ -12,7 +14,10 @@ export const App = () => {
         iconLeft={images.icongoBack}
         leftPress={() => this.props.navigation.goBack()}
       />
-      <Text>Xin chào</Text>
+      <View style={{paddingHorizontal: 20}}>
+        <Text>Xin chào</Text>
+        <ButtonAnother text="Hello" containerStyle={{width: "50%"}}/>
+      </View>
     </View>
   );
 };
